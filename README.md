@@ -1,35 +1,35 @@
-Healthcare Facility Locator - South Africa
+📍 Healthcare Facility Locator - South Africa 🇿🇦
 
-A web-based application designed to help users in South Africa quickly and easily find nearby healthcare facilities. This tool provides a simple, intuitive interface to locate hospitals, clinics, and pharmacies, featuring a dedicated emergency function to find the nearest 24/7 care providers.
+An accessible, easy-to-use web application designed to bridge the healthcare information gap in South Africa. This tool helps users find the closest hospitals, clinics, and pharmacies, especially during critical moments.
 
-Live Application
+► Live Application
 
-The system is hosted on Firebase and can be accessed here: https://final-project-9051d.web.app/
+You can access the live, deployed system here: https://final-project-9051d.web.app/
 
-Core Features
+✨ Core Features
 
-Location-Based Search: Automatically detects the user's location to display the nearest facilities upon granting permission.
+Find Care, Fast: Automatically uses your location to pinpoint the nearest healthcare services, taking the guesswork out of your search.
 
-Emergency Function: A prominent, one-click button to instantly filter for the closest 24/7 hospitals and emergency services.
+Emergency Ready: In a crisis? A single click on the Emergency button instantly filters for the closest 24/7 hospitals, showing you where to go when every second counts.
 
-Interactive Map: Utilizes the Google Maps Platform to visually display facility locations with markers.
+See It on the Map: An interactive map provides a clear visual of all nearby facilities, helping you understand your options at a glance.
 
-Facility Details: Users can view key information like addresses, phone numbers, and operating hours in a clean, accessible modal window.
+All the Details: Get the essential information you need—address, phone number, and operating hours—in a clean, simple pop-up.
 
-Responsive Design: The interface is fully responsive and optimized for a seamless experience on both desktop and mobile devices.
+Works Anywhere: The fully responsive design ensures a seamless experience whether you're on a desktop at home or on your phone on the go.
 
-Technology Stack
+🛠️ Technology Stack
 
-This project is a client-side application built with modern web technologies.
+This project is a modern, client-side application built with reliable and standard web technologies.
 
 Frontend: HTML5, CSS3, JavaScript (ES6+)
 
-Hosting: Firebase Hosting
+Hosting: Deployed globally via Firebase Hosting.
 
-APIs & Services: Google Maps Platform (Maps, Places, Distance Matrix, Directions, Geocoding)
+Backend & Data Services: Powered by the Google Maps Platform (Maps, Places, Distance Matrix, Directions, Geocoding APIs).
 
-API Key Security
+🔐 A Note on Security
 
-The Google Maps API key used in this project is secured using HTTP referrer restrictions configured in the Google Cloud Console. This is a critical security measure that ensures the key can only be used from the designated Firebase hosting domain, preventing any unauthorized use or potential misuse.
+Security is a top priority. The Google Maps API key used in this project is secured with HTTP referrer restrictions via the Google Cloud Console. This ensures the key can only be used from our designated Firebase domain, preventing any unauthorized access or misuse.
 
-This project was developed in fulfillment of the Software Engineering module requirements.
+This project was proudly developed in fulfillment of the Software Engineering module requirements.
